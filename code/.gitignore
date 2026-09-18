@@ -1,0 +1,25 @@
+# Private or locally generated study data
+backend/db.sqlite3
+backend/data/chroma/
+backend/data/sep/transcripts/
+backend/data/sep/*.html
+backend/tutor/eval/adversarial_results/
+backend/tutor/eval/rag_results/
+
+# Copyrighted or locally supplied learning media
+tutor-app/public/videos/*.mp4
+tutor-app/public/videos/*.vtt
+
+# Local configuration and generated files
+.env
+.env.*
+!.env.example
+**/__pycache__/
+*.py[oc]
+*.log
+node_modules/
+dist/
+.venv/
+.vscode/
+.idea/
+.DS_Store

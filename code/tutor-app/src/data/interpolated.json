@@ -1,0 +1,21 @@
+{
+  "liberalism": [
+    {
+      "id": 1,
+      "question": "What is the core principle discussed in this section?",
+      "options": ["Individual freedom", "Collective ownership", "Divine authority", "Military expansion"],
+      "correctIndex": 0,
+      "timestamp": 15,
+      "rewatchStart": 5
+    },
+    {
+      "id": 2,
+      "question": "According to the video, what limits should be placed on government?",
+      "options": ["None", "Only military limits", "Protection of individual rights", "Economic limits only"],
+      "correctIndex": 2,
+      "timestamp": 30,
+      "rewatchStart": 18
+    }
+  ],
+  "representativeDemocracy": []
+}

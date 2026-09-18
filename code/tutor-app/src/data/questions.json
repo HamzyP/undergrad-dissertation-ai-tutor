@@ -1,0 +1,31 @@
+{
+  "liberalism": {
+    "pre": [
+      {
+        "id": 1,
+        "question": "What is the primary concern of political liberalism?",
+        "options": ["Economic growth", "Individual liberty", "Military strength", "Cultural unity"],
+        "correctIndex": 1
+      },
+      {
+        "id": 2,
+        "question": "Which concept is central to liberal political theory?",
+        "options": ["Divine right", "Consent of the governed", "Ethnic nationalism", "Class struggle"],
+        "correctIndex": 1
+      },
+      {
+        "id": 3,
+        "question": "What does liberalism typically advocate regarding the state?",
+        "options": ["Unlimited state power", "No state at all", "Limited government with protected rights", "Theocratic governance"],
+        "correctIndex": 2
+      }
+    ],
+    "post": [],
+    "interpolated": []
+  },
+  "representativeDemocracy": {
+    "pre": [],
+    "post": [],
+    "interpolated": []
+  }
+}
