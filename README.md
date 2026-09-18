@@ -33,3 +33,14 @@ A locally deployed educational AI tutor engineered to transform passive video wa
 *(Source: Page 37 of the report)*
 
 The interface features an interpolated question overlay that pauses the video to serve dynamic MCQs, alongside a streaming chat panel that provides inline citations allowing users to jump directly to referenced video timestamps.
+
+## Getting Started & Local Setup
+
+**Note on Privacy & Copyright:** To protect participant privacy and comply with copyright, all original study databases, evaluation results, video files (`.mp4`), and transcript files (`.vtt`) have been stripped from this public repository. 
+
+To run this project locally, you will need to supply your own media and initialise a fresh database:
+
+1. **Environment Setup:** Create a `.env` file in the `backend/` directory and add a secure Django `SECRET_KEY`. Ensure `DEBUG = False` if deploying.
+2. **Database Initialisation:** Run `python manage.py migrate` to generate a fresh local SQLite database.
+3. **Adding Media:** Place your own video files in `tutor-app/public/videos/` and their corresponding transcript files in `backend/data/sep/transcripts/`.
+4. **Vector Store Generation:** Run the ingestion script to fetch source documents (via `sources.json`), chunk the text, and rebuild the local ChromaDB vector store.
